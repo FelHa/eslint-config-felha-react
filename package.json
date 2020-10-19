@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-felha-react",
+  "version": "1.0.0",
+  "description": "Personal ESLint-settings with airbnb-react config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelHa/eslint-config-felha-react.git"
+  },
+  "keywords": [
+    "javascript",
+    "eslint",
+    "airbnb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelHa/eslint-config-felha-react/issues"
+  },
+  "homepage": "https://github.com/FelHa/eslint-config-felha-react#readme",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  }
+}
