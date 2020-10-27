@@ -1,6 +1,7 @@
 {
   "extends": ["airbnb"],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  "plugins": ["react"],
   "parserOptions": {
     "ecmaVersion": 11,
     "sourceType": "module",
@@ -8,6 +9,7 @@
       "jsx": true
     }
   },
+  "env": { "browser": true },
   "rules": {
     "no-unused-vars": "warn",
     "no-console": "off",
